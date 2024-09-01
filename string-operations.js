@@ -14,3 +14,5 @@ for(let i = 0; i < sentence.length; i++) {
     reverse = sentence[i] + reverse;
 }
 console.log(reverse);
+
+console.log("alsemite code kora hoitechey na");
