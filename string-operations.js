@@ -9,10 +9,15 @@ let reverse = '';
 // }
 // console.log(reverse);
 
-for(let i = 0; i < sentence.length; i++) {
-    // console.log(sentence[i]);
-    reverse = sentence[i] + reverse;
-}
-console.log(reverse);
+// ignore this one
+// for(let i = 0; i < sentence.length; i++) {
+//     // console.log(i);
+//     // console.log(sentence[i]);
+//     const letter = sentence[i];
+//     reverse = letter + reverse;
+// }
+// console.log(reverse);
 
-console.log("alsemite code kora hoitechey na");
+// shortcut
+const reversed = sentence.split("").reverse().join("");
+console.log(reversed);
